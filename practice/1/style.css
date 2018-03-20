@@ -66,11 +66,12 @@ body {
 #main {
 	float:left;
 	width: 70%;
-	text-align: justify;
 	padding: 0 30px;
 	box-sizing: border-box;
 }
-
+#main h1 {
+	text-align: justify;
+}
 #sidebar {
 	float:right;
 	width: 30%;
