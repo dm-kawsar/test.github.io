@@ -38,7 +38,7 @@
   border-radius: 30px;
 }
 .container .menu ul li a:hover:not(.active) {
-  background: #dfdfdf;
+  background: black;
   color: #038C5E;
   border-radius: 30px;
 }
