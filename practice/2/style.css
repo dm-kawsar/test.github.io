@@ -1,0 +1,195 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4;
+}
+/*Globale*/
+.dark {
+	padding:15px;
+	background: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btn1 {
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+img {
+	width: 100%;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+/*header*/
+header {
+	background: #35424a;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+header a {
+	color: #fff;
+	text-decoration: none; 
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding {
+	float: left;
+}
+header #branding h1 {
+	margin: 0;
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+header .heighlighs, header .current a {
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/*Shocase*/
+#shocase {
+	min-height: 400px;
+	background: url('./images/shocase.jpg') no-repeat 0 -350px;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+#shocase h1 {
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#shocase p {
+	font-size: 20px;
+}
+
+/*newslater*/
+#newslater {
+	padding: 15px; 
+	color: #ffffff;
+	background: #35424a;
+}
+#newslater h1 {
+	float: left;
+
+}
+#newslater form {
+	float: right;
+	margin-top: 15px;
+}
+#newslater input[type="email"] {
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+/*boxes*/
+#boxes {
+	margin-top: 20px;
+}
+#boxes .box {
+	float: left;
+	width: 33%;
+	text-align: center;	
+}
+#boxes .box  img {
+	width: 90px;
+} 
+
+/*article*/
+article#main-col {
+	width: 65%;
+	float: left;
+}
+aside#sidebar {
+	width: 30%;
+	float: right;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea  {
+	width: 90%;
+	padding: 5px;
+}
+/*Services*/
+ul#services li {
+	list-style: none;
+	padding: 20px;
+	margin-bottom: 5px;
+	background: #c6c6c6;
+	border: 1px solid #cccccc;
+}
+
+/*footer*/
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background: #e8491d;
+	text-align: center;
+}
+
+/*Media Query*/
+@media(max-width:768px){
+	header#branding,
+	header nav, 
+	header nav li,
+	#newslater h1,
+	#newslater form,
+	#boxes .box,
+	article#main-col,
+	aside#sidebar {
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.container p {
+		text-align: justify;
+	}
+	header {
+		padding: 20px;
+	}
+	#shocase h1 {
+		margin-top: 30px;
+	}
+	#shocase {
+		background: url('./images/shocase.jpg') no-repeat center center;
+		background-size: cover;
+	}
+	#newslater .btn1,
+	.quote .btn1 {
+		display: block;
+		width: 100%;
+	}
+	#newslater form input[type="email"] {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+} 
