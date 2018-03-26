@@ -39,6 +39,7 @@ section#blog {
 .bgog-title h2 {
     font-size: 32px;
     color:#222222;
+    margin-bottom:20px
 }
 .bgog-title h2::after{
     content: '';
