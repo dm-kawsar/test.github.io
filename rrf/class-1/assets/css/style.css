@@ -1,0 +1,122 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 32px;
+    color: #212121;
+    margin: 0 0 15px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #6D6D6D;
+}
+a:hover { text-decoration: none }
+section#blog {
+    padding: 70px 0;
+}
+.bgog-title {
+    text-align: center;
+    color: #6D6D6D;
+    font-size: 17px;
+    padding-bottom:70px;
+    position: relative;
+}
+.bgog-title h2 {
+    font-size: 32px;
+    color:#222222;
+}
+.bgog-title h2::after{
+    content: '';
+    background: url(../imgs/after-cnt.png) center center;
+    background-size: cover;
+    position: absolute;
+    height: 2px;
+    width: 55px;
+    left: 50%;
+    bottom: 0;
+}
+.blog-boxes {
+}
+.blog-box-bg {
+    background-size: cover;
+    height: 200px;
+    background: #dfdfdf;
+    border: 2px solid #FF8F17;
+}
+.blog-box-bg {
+    border-bottom: 0 solid;
+}
+.blog-box-bg1 { background: url(../imgs/blog-box-1.png) no-repeat center center ; }
+.blog-box-bg2 { background: url(../imgs/blog-box-2.png) no-repeat center center ; }
+.blog-box-bg3 { background: url(../imgs/blog-box-3.png) no-repeat center center ; }
+.blog-box-content {
+    border: 2px solid #E9E9E9;
+    padding: 20px;
+    transition: 0.5s;
+}
+.blog-boxes:hover .blog-box-content {
+    border: 2px solid #FF8F17
+}
+.blog-meta {
+    font-size: 14px;
+}
+.blog-meta i.fa {
+    color: #FF8F17;
+    margin-right: 3px;
+}
+.blog-meta a{
+    color: #6D6D6D;
+}
+.blog-meta span {
+    margin-right: 10px;
+}
+.blog-meta span:last-child {
+    margin-right: 0;
+}
+.blog-box-content h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.blog-more-btn {
+    background: #FF8F17;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.blog-more-btn:hover {
+    background: #222222;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
