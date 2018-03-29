@@ -1,0 +1,129 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+}
+a:hover { text-decoration: none }
+section#quote { padding: 50px 0; }
+.quote-form-wrap {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.quote-form {
+    background: #19B5FE;
+    color: #fff;
+    margin-top: -84px;
+    max-width: 770px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.quote-form h3 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding: 40px 0;
+    position: relative;
+}
+.quote-form h3::before {
+    position: absolute;
+    width: 128px;
+    height: 2px;
+    content: '';
+    background: #fff;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -64px;
+}
+.quote-form h3::after {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    content: '';
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -6px;
+}
+.quote-form input, .quote-form textarea {
+    padding: 10px 0;
+    color: #fff;
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 5px 0;
+
+}
+.quote-form textarea {
+    padding-bottom: -10px;
+}
+.quote-form input:focus, .quote-form textarea:focus {
+    outline: none;
+}
+.quote-form textarea {
+    height: 100px;
+}
+
+.form-submit button[type="submit"] {
+    color: #19B5FE;
+    background: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    transition: 1s;
+    border: 2px solid #fff;
+}
+.form-submit button[type="submit"]:hover {
+    background: #19B5FE;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.form-submit {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
