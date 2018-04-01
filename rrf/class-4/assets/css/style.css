@@ -1,0 +1,92 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+body {
+    font-size: 17px;
+    color: #575757;
+}
+a:hover { text-decoration: none }
+
+#service {
+	padding: 50px 0;
+}
+.service-title {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 60px;
+	color: #000;
+}
+.service-title h2 {
+	position: relative;
+	z-index: 1;
+	padding-bottom: 20px;
+}	
+.service-title h2::before {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -30px;
+	content: '';
+	background: #FF8F17;
+	width: 60px;
+	height: 2px;
+}
+.service-title h2::after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -10px;
+	content: '';
+	background: #3C2452;
+	width: 20px;
+	height: 2px;
+}
+.single-service-icon {
+	text-align: center;
+	min-height: 350px;
+	color: #575757;
+	display: block;
+	margin-bottom: 30px;
+	transition: 1s;
+}
+.single-service-icon h3 {
+	margin: 20px 0;
+	font-size: 30px;
+}
+.service-icon-container {
+	display: table;
+	width: 100%;
+	height: 90px;
+}
+.service-icon-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 70px;
+	color: #FF7676;
+}
+a.single-service-icon:hover {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
