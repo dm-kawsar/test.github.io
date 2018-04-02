@@ -1,0 +1,51 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+body {
+    
+}
+a:hover { text-decoration: none }
+.video-area-bg {
+	background: url(../imgs/video_bg.jpg) center center no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 37%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+#video-area {
+	position: relative;
+}
+.check-icon li::before {
+	font-family: fontAwesome;
+	content: '\f00c' !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
