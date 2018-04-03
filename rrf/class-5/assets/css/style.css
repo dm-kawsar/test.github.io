@@ -1,0 +1,93 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body {
+    font-size: 17px;
+    color: #8b8b8b;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+.service {
+    padding: 50px 0;
+}
+.section-bg-1 {
+    position: relative;
+}
+.section-bg-1::after {
+    background: url(../images/1.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 47%;
+}
+.section-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #000;
+}
+.section-title span {
+    color: #15B6FE;
+}
+.style-faq {
+    min-height: 315px;
+}
+.style-faq .panel-default .panel-heading {
+    border: none;
+    background: none;
+    padding: 0;
+}
+.style-faq .panel {
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    margin-bottom: 20px;
+}
+.style-faq .panel .panel-collapse .panel-body {
+    border: none;
+}
+.style-faq .panel .panel-heading h4 a {
+    display: block;
+    padding: 15px;
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+}
+.style-faq .panel .panel-heading h4 a i.fa {
+    float: right;
+    font-size: 150%;
+    line-height: 15px;
+    display: none;
+}
+.style-faq .panel .panel-heading h4 a[aria-expanded="true"] i.fa.fa-angle-down {
+    display: block;
+}
+.style-faq .panel .panel-heading h4 a[aria-expanded="false"] i.fa.fa-angle-up {
+    display: block;
+}
