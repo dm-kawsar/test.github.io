@@ -6,8 +6,8 @@ body h2, h3 {
 	font-weight: 700;
 }
 h2 {
-	border: 1px solid red;
-	padding: 5px;
+	border: 2px solid red;
+	padding: 20px 5px;
 }
 body h2::before {
 	font-family: FontAwesome;
