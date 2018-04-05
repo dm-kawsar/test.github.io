@@ -5,6 +5,10 @@ body h2, h3 {
 	color: #333;
 	font-weight: 700;
 }
+h2 {
+	border: 1px solid red;
+	padding: 5px;
+}
 body h2::before {
 	font-family: FontAwesome;
 	content: '\f00c';
