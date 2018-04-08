@@ -1,0 +1,88 @@
+body {
+	padding: 50px 0;
+	color: #989898;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em; 
+}
+.title {
+	margin-bottom: 60px;
+}
+.title h2 {
+	color: #222426;
+	font-size: 32px;
+	font-weight: 700;
+}
+.after-title span {
+	background: #6AAF08;
+	width: 50px;
+	display: inline-block;
+	height: 5px;
+	border-radius: 2px;
+
+}
+.after-title span.black-border {
+	background: #333;
+	width: 35px;
+	display: inline-block;
+	height: 5px;
+	border-radius: 2px;
+}
+.single-clint-carousel {
+	border: 1px solid #dfdfdf;
+	padding: 20px;
+	font-style: italic;
+	position: relative;
+	padding-left: 85px;
+}
+.single-clint-carousel::before {
+	font-family: "Font Awesome 5 Free"; 
+	content: "\f007";
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	font-size: 20px;
+	color: #6AAF08;
+	line-height: 30px;
+	margin: -15px;
+}
+.single-clint-carousel::after {
+	background: #D1D1D1;
+	height: 80%;
+	width: 1px;
+	content: '';
+	position: absolute;
+	top: 15px;
+	left: 55px;
+}
+.single-clint-carousel h3 {
+	font-size: 16px;
+	color: #222426;
+	font-weight: 700;
+	font-style: normal;
+}
+.single-clint-carousel h3 span {
+	display: block;
+	font-size: 12px;
+	margin-top: 5px;
+	color: #989898;
+	font-weight: normal;
+}
+
+
+.client-carousel-box .owl-controls .owl-dots div {
+	width: 25px;
+	height: 5px;
+	background: #6AAF08;
+	display: inline-block;
+	margin: 0 2px;
+	border-radius: 2px;
+	transition: 300ms;
+}
+.client-carousel-box .owl-controls .owl-dots div.active {
+	background: #333;
+	width: 35px;
+}
+.client-carousel-box .owl-controls .owl-dots {
+	text-align: center;
+	margin-top: 60px;;
+}
