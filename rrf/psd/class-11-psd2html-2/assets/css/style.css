@@ -1,0 +1,74 @@
+/* Base CSS */
+@font-face{
+    font-family:CodeBold;
+    src:url(../fonts/Code-Bold.eot);
+    src:url(../fonts/Code-Bold.otf?#iefix&v=4.6.3) format('embedded-opentype'), url(../fonts/Code-Bold.woff2) format('woff2'), url(../fonts/Code-Bold.woff) format('woff'), url(../fonts/Code-Bold.ttf) format('truetype'), url(../fonts/Code-Bold.svg#codebold) format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{
+    font-family:CodeLight;
+    src:url(../fonts/Code-Light.eot);
+    src:url(../fonts/Code-Light.otf?#iefix&v=4.6.3) format('embedded-opentype'), url(../fonts/Code-Light.woff2) format('woff2'), url(../fonts/Code-Light.woff) format('woff'), url(../fonts/Code-Light.ttf) format('truetype'), url(../fonts/Code-Light.svg#codebold) format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2 h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-family: 'Code-Light', sans-serif;
+}
+body {
+    font-family: 'Karla', sans-serif;
+}
+a:hover { text-decoration: none }
+.home-page-slider-wrap { background: url(../images/hero-bg.jpg); }
+.product-bg-1 { background: url(../images/lady-1.png) center center; }
+.product-bg-2 { background: url(../images/lady-2.png) center center; }
+.product-bg-3 { background: url(../images/lady-3.png) center center; }
+.product-bg-4 { background: url(../images/lady-4.png) center center; }
+.product-bg-5 { background: url(../images/lady-5.png) center center; }
+.product-bg-6 { background: url(../images/lady-6.png) center center; }
+.product-bg-7 { background: url(../images/lady-7.png) center center; }
+.product-bg-8 { background: url(../images/lady-8.png) center center; }
+.product-bg-9 { background: url(../images/lady-9.png) center center; }
+.product-bg-10 { background: url(../images/lady-10.png) center center; }
+.header-top-area a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5b3f61;
+    font-size: 13px;
+    display: inline-block;
+    padding: 15px;
+}
+.header-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-left li {
+    display: inline-block;
+}
+.header-top-area .menu-triger {
+    display: none;
+}
+.search-triger i.fa {
+    padding-left: 10px;
+}
