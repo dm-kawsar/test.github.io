@@ -1,0 +1,78 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+   .main-menu li {
+	    padding-left: 50px !important;
+	}
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    .main-menu li {
+        padding-left: 75px !important;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.logo {
+	    padding: 20px 0 !important;
+	    text-align: center;
+	}
+	.main-menu ul  {
+	 	text-align: center !important;
+	}
+	.main-menu li  {
+	 	padding: 4px !important;
+	}
+	.main-menu a  {
+		padding: 5px 0 !important;
+	 	font-size: 11px !important;
+	}
+	.big-blog-box {
+	 	margin-bottom: 0 !important;
+	}
+	.single-blog-item {
+		text-align: center !important;
+		margin: 20px 0 0 0 !important;
+	}
+	.single-blog-item .blog-content p {
+	    text-align: justify !important;
+	    padding: 0 10px !important;
+	}
+	.newslater-form {
+	    width: 100% !important;
+	}
+	.newslater-area {
+		margin: 20px 0 !important;
+	}
+	.load-more-btn {
+	    font-size: 14px !important;
+	    padding: 10px 20px !important;
+	    text-align: center !important;
+	}
+	.load-more-area {
+	    margin: 30px 0 !important;		
+	}
+	.footer-area {
+	    padding: 30px 0 !important;
+	    text-align: center !important;
+	}
+	.footer-area li {
+		padding: 10px !important;
+	}
+	.footer-area .text-right {
+		text-align: center !important;
+	}
+
+
+
+
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
