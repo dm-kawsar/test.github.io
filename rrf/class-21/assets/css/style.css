@@ -1,0 +1,151 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+a:hover { text-decoration: none }
+.header-top-area {
+    background: #218AE6;
+    padding: 20px 0;
+    color: #fff;
+}
+.header-top-area a, i.fa {
+    color: #fff;
+}
+.header-top-area i.fa {
+    padding:0 15px;
+
+}
+
+/*Header area section*/
+.header-area {
+    padding: 25px 0;
+}
+.logo {
+    color: #333;
+    float: left;
+    padding-right: 10px;
+    transition: 300ms;
+    font-weight: 700;
+}
+.logo:hover, .logo img:hover .logo h2 {
+    color: #218AE6;
+}
+.header-area .text-right ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.header-area .text-right li {
+    display: inline-block;
+    padding: 5px 0 0 25px;
+}
+.header-area .text-right a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #222222;
+   transition: 300ms;
+    text-decoration: none;
+}
+.header-area .text-right a:hover {
+    color: #218AE6;
+}
+
+/*Homepage slides wrap*/
+.hompage-slider-wrap {
+    background: #218AE6;
+}
+.sngle-hompae-sldes-item {
+    padding: 150px 0;
+}
+.hompage-slider-wrap h2 {
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 50px;
+}
+.sngle-hompae-sldes-item h2, p, a {
+    color: #fff;
+}
+
+.sngle-hompae-sldes-item p{
+    text-align: justify;
+    margin: 30px 0;
+    font-size: 17px;
+}
+.services-btn {
+    background: #F9CF25;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 15px;
+    transition: 300ms;
+    margin-top: 40px;
+}
+.services-btn::after {
+    content: '\f178';
+    font-family: fontawesome;
+    padding-left: 15px;
+}
+.services-btn:hover {
+    background: #333;
+    color: #F9CF25;
+}
+.sngle-hompae-sldes-item img{
+    width: 600px;
+    height: 400px;
+}
+
+.hompage-slider-wrap .owl-controls .owl-dots div{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    margin: 0 7px;
+    border-radius: 50%;
+}
+.hompage-slider-wrap .owl-controls .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+.hompage-slider-wrap .owl-controls .owl-dots div.active {
+    background: #F9CF25;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
