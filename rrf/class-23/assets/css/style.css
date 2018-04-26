@@ -1,0 +1,104 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, a:active { outline: 0 solid; text-decoration: none; }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-weight: 700;
+}
+body {
+    color: #9E9E9E;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+}
+a:hover { text-decoration: none }
+.seervice-box-bg-1 { background: url('../images/services_1.jpg') no-repeat center top; background-size: cover; transition: 300ms; }
+.seervice-box-bg-2 { background: url('../images/services_2.jpg') no-repeat center top; background-size: cover; transition: 300ms; }
+.seervice-box-bg-3 { background: url('../images/services_3.jpg') no-repeat center top; background-size: cover; transition: 300ms; }
+.service-box-bg {
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    background-color: #dfdfdf;
+}
+.servuces-area {
+    padding: 75px 0 0 50px;
+}
+.servuces-area h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service-box-bg h2 {
+    background: #F97230;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    margin: 0;
+    bottom: -24px;
+}
+.single-service-box {
+    border: 1px solid #dfdfdf;
+    transition: 300ms;
+    margin-top: 50px;
+}
+.single-service-box:hover .service-box-bg {
+    opacity: 0.5;
+}
+.single-service-box:hover .read-more-btn {
+    color: #F97230;
+}
+.single-service-box:hover {
+    border: 1px solid #F97230;
+}
+.single-service-box-content {
+    padding: 50px 10px 30px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.single-service-box-content p:last-child {
+    margin: 0;
+}
+.read-more-btn {
+    color: #333;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+    transition: 300ms;
+}
+.read-more-btn:hover {
+    color: #F97230;
+}
+
+
+
+
+
+
+
+
