@@ -1,0 +1,115 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+body {
+    font-size: 17px;
+    color: #000;
+}
+a:hover { text-decoration: none }
+a:focus, input[type=text], input[type=email], input[type=phone], input[type=password], input[type=submit], textarea {
+    outline: none;
+    text-decoration: none;
+}
+.section-padding {
+    padding: 70px 0;
+}
+
+.white-box {
+    box-shadow: 0 0 10px #F5F5F5;
+}
+.white-box h4 {
+    font-size:  20px;
+    padding: 30px 0 20px 30px;
+    font-weight: 700;
+    color: #373737;
+}
+input[type=text], input[type=email], input[type=password], input[type=phone], input[type=submit], textarea {
+    background: #F9F9F9;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333;
+    padding: 20px 30px;
+    border: none;
+}
+.contact-form input, textarea  {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    resize: none;
+}
+.contact-form input[type=submit] {
+    width: auto;
+    margin: 0;
+    background: #4DAEFE;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.contact-form {
+    margin: 30px;
+}
+.color-box {
+    background: #4DAEFE;
+    
+}
+.color-box a, p, h4, i.fa {
+    color: #fff;
+}
+.color-box h4 {
+    padding: 30px 0 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.cntact-info {
+    font-size: 10px;
+    position: relative;
+    padding: 10px 35px;
+    margin-top: 35px;
+    
+}
+.cntact-info i.fa {
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.color-box p {
+    margin-left: 33px;
+}
+.color-box p {
+    margin-left: 33px;
+}
+.social-links {
+    padding: 80px 0 130px 0;
+}
+.social-links a {
+    display: inline-block;
+    background: #fff;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #000;
+    margin: 0 10px;
+    text-align: center;
+    box-shadow: 0 0 5px #333;
+}
+.social-links a i.fa {
+    color: #333;
+}
+
+
+
+
+
+
+
