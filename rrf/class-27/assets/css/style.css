@@ -1,0 +1,29 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+body {
+    font-size: 16px;
+    color: #7D7D7D;
+    line-height: 1.3em;
+}
+a:hover { text-decoration: none }
+.timeline-info {
+    padding:  50px;
+    padding-right: 0;
+}
+
+.timeline-info h4 {
+    color: #7D7D7D;
+    font-size: 20px;
+}
+
+.timeline-info h5 {
+    font-size: 22px;
+    color: #4D4D4D;
+}
