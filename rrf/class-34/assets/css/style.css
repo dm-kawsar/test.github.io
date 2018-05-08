@@ -1,0 +1,139 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+body {
+    font-size: 17px;
+    color: #BBBBBB;
+}
+a:hover { text-decoration: none }
+
+.single-slides-item {
+  background: url(../images/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #dfdfdf;
+  height: 550px;
+  position: relative;
+  margin: 25px 0;
+}
+.slide-text-area {
+    position: absolute;
+    bottom:  0;
+    left: 0;
+    width: 100%;
+}
+
+.slide-text {
+    background-color: #1C83C8;
+    color: #fff;
+    padding: 60px 50px 60px 0;
+    font-size: 20px;
+    line-height: 1.8;
+    position:  relative;
+}
+
+.slide-text h2 {
+    color:  #fff;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.boxed-btn {
+    color:  #fff;
+    text-transform:  uppercase;
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #3E3F43;
+    font-size: 14px;
+    transition: 300ms;
+}
+
+.boxed-btn:hover {
+  background: #fff;
+  color: #1C83C8;
+  border: 1px solid #fff;
+}
+
+.slide-text .boxed-btn {
+    margin-top: 25px;
+}
+
+
+.slide-text::before {
+    position:  absolute;
+    bottom: 0;
+    left: -1000%;
+    content: '';
+    background: #1C83C8;
+    width: 1000%;
+    height:  100%;
+}
+
+.slide-text::after {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    content: '';
+    background: #1C83C8;
+    transform: rotate(45deg);
+    margin-right: -10px;
+}
+
+.overlay .slide-text {
+  background: #333;
+  opacity: .5
+}
+.overlay .slide-text::before {
+    position:  absolute;
+    bottom: 0;
+    left: -1000%;
+    content: '';
+    background: #333;
+    width: 1000%;
+    height:  100%;
+    /* opacity: 1 */
+}
+.overlay .slide-text::after {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  content: '';
+  background: #333;
+  transform: rotate(45deg);
+  margin-right: -10px;
+  opacity: 1
+}
+.scroll-btn {
+  display: inline-block;
+    width: 50px;
+    margin-left: -35px;
+    height: 50px;
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    content: '';
+    background: #999;
+    color: #fff;
+    display: block;
+    font-size: 35px;
+    text-align:  center;
+    border-radius: 50%;
+    z-index:  1;
+    transition: 1s;
+}
+.scroll-btn:hover {
+  transform: rotate(360deg);
+  background: #000;
+  color: #fff;
+}
