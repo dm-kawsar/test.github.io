@@ -1,0 +1,79 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+body {
+    font-size: 17px;
+    color: #BBBBBB;
+}
+a:hover { text-decoration: none }
+.probo-box-bg-1 {
+  background-image: url(../images/product-1.jpg);
+  height: 280px;
+}
+.probo-box-bg-2 {
+  background-image: url(../images/product-2.jpg);
+  height: 280px;
+}
+.probo-box-bg-3 {
+  background-image: url(../images/product-3.jpg);
+  height: 280px;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.single-product-box {
+    display:  block;
+    position:  relative;
+    background-size: cover;
+    background-position: center;
+    transition: 300ms;
+    margin-top: 30px;
+}
+.promo-content {
+    text-align:  center;
+    color: #333;
+    position:  absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+}
+
+.promo-content h2 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.promo-content p {
+    font-size:  20px;
+    font-weight: 400;
+}
+
+.single-product-box:hover {
+    transform: scale(1.05);
+    color: #fff;
+    box-shadow: 0 0 10px #333;
+}
+.scroll-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #337ab7;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    transition: 300ms;
+}
+.scroll-btn:hover {
+  transform: scale(1.05);
+  background: #333;
+  color: #fff;
+}
