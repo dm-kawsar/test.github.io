@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i');
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+    color: #BBBBBB;
+}
+a:hover { text-decoration: none }
+.section-absolute-bg {
+  background-image: url(../images/absolute-bg-1.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-position: : center;
+  background-size: cover;
+  background-color: #dfdfdf;
+}
+.absolute-bg-left .section-absolute-bg {
+  right: auto;
+  left: 0;
+}
+.absolute-bg-2 {
+  background-image: url(../images/absolute-bg-2.jpg);
+}
+.section-padding {
+    background-color: #333;
+    font-size: 15px;
+    line-height:  1.7;
+    color: #C1C1C1;
+    padding: 50px 0;
+    position: relative;
+}
+
+.boxed-content {
+    padding: 0 35px 0 0;
+}
+.absolute-bg-left .boxed-content {
+  margin-left: 40px;
+  padding-right: 0;
+}
+
+.boxed-content h2 {
+    color:  #fff;
+    text-transform:  uppercase;
+    font-size:  25px;
+}
+
+.border-btn {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: 2s;
+}
+.border-btn:hover {
+  transform:scale(1.5);
+  background: #dfdfdf;
+  color: #333;
+  border: 1px solid #999;
+}
+
+.boxed-content .border-btn {margin-top: 20px;}
+
+.boxed-content {
+    position:  relative;
+    padding-left: 40px;
+}
+
+.boxed-content::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #767A7F;
+    width: 2px;
+    height: 100px;
+}
