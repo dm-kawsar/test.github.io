@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222222;
+}
+body {
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EBEAF0;
+
+}
+a:hover { text-decoration: none; color: none;  }
+.sectino-padding {
+  padding: 80px 0;
+}
+.color-bg {
+    background-color: #76D3DA;
+    position: relative;
+}
+.slide-text {
+    padding-left: 100px;
+    font-size: 18px;
+    line-height: 25px;
+    max-width:  550px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    min-height: 900px !important;
+}
+
+img.lady {
+    position: absolute;
+    bottom: 0;
+    right: -45px;
+}
+
+.top-tricker-text {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:  700;
+    position: relative;
+}
+
+.top-tricker-text::after {
+    position:  absolute;
+    left: 0;
+    bottom: -5px;
+    width: 35px;
+    height: 4px;
+    content: '';
+    background: #fff;
+}
+
+.slide-text h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 55px;
+    margin: 50px 0 70px 0;
+}
+
+.boxex-btn {
+    background: #F4F551;
+    color: #9D9D34;
+    display:  inline-block;
+    padding: 15px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    transition:300ms;
+    box-shadow: 0 20px 60px #F4F551;
+}
+.boxex-btn:hover {
+  background: #EBEAF0;
+  color:#76D3DA;
+  box-shadow: 0 20px 60px #EBEAF0;
+}
+.slide-text .boxex-btn {
+    margin: 70px 0 0 0;
+}
