@@ -91,13 +91,13 @@ a:hover { text-decoration: none }
     padding: 10px  0;
 }
 .search-box {
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 25px;
     right: 0px;
     width: 80%;
     background: #465d68;
     margin-top: 5px;
-    margin-right: -810px;
+    margin-right: -900px;
     transition: 300ms;
 }
 .close-btn {
