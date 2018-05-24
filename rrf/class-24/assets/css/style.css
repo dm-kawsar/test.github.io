@@ -93,7 +93,7 @@ a:hover { text-decoration: none }
 .search-box {
     position: fixed;
     top: 25px;
-    right: 0px;
+    right: 7%;
     width: 70%;
     background: #465d68;
     margin-top: 5px;
