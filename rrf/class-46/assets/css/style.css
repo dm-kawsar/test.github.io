@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+html, body {
+  height: 100%
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #A5A5A5;
+}
+
+a:hover { text-decoration: none }
+
+.section-padding {
+  padding: 10% 0;
+}
+
+.dark-bg {
+  background: #2C2C2C;
+  height: 100%;
+}
+
+.trailor-text {
+    font-size:  18px;
+    line-height: 1.7;
+}
+
+.trailor-text h1 {
+    font-size:  35px;
+    color:  #fff;
+    line-height: 50px;
+    text-transform:  uppercase;
+    font-weight: normal;
+    margin: 0 0  50px 0;
+    position:  relative;
+    z-index: 1;
+}
+
+.trailor-text h1::after {
+    position:  absolute;
+    bottom: -20px;
+    left: 0;
+    width: 20px;
+    height: 5px;
+    content: '';
+    background: #FF4F4B;
+}
+
+.borderd-btn {
+    border: 2px solid #FF4E4A;
+    display:  inline-block;
+    padding: 9px 20px;
+    width: 190px;
+    text-transform:  uppercase;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing:  1px;
+    margin: 25px 0 0 0;
+}
+
+.borderd-btn i.fa {
+    float: right;
+    padding: 6px 0 0 0;
+}
+
+.trailor-info {
+    position: relative;
+    z-index:  1;
+}
+
+.color-pricing-box {
+    position:  absolute;
+    right: 150px;
+    top: 0;
+    background:  #FF4F4B;
+    width: 200px;
+    text-align:  center;
+    color:  #fff;
+    padding: 70px 0 0 0px;
+    height: 250px;
+}
+
+.color-pricing-box p {
+    opacity:  0.5;
+}
+
+.color-pricing-box p.price-text {
+    color: #fff;
+    font-size:  35px;
+    opacity:  1;
+}
+
+.absolute-shooping-cart {
+    position: absolute;
+    top: 35px;
+    left: -25px;
+    background: #fff;
+    color: #3E3E3E;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 0 5px #999;
+}
+
+.trailor-info {
+    position: relative;
+    z-index:  1;
+}
+
+.color-pricing-box {
+    position:  absolute;
+    right: 150px;
+    top: 0;
+    background:  #FF4F4B;
+    width: 200px;
+    text-align:  center;
+    color:  #fff;
+    padding: 80px 0 0 0px;
+    height: 225px;
+}
+
+.color-pricing-box p {
+    opacity:  0.5;
+}
+
+.color-pricing-box p.price-text {
+    color: #fff;
+    font-size:  35px;
+    opacity:  1;
+}
+
+.absolute-shooping-cart {
+    position: absolute;
+    top: 50px;
+    left: -25px;
+    background: #fff;
+    color: #3E3E3E;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 0 5px #999;
+}
+.trailor-info {
+    position: relative;
+    z-index:  1;
+}
+
+.color-pricing-box {
+    position:  absolute;
+    right: 150px;
+    top: 0;
+    background:  #FF4F4B;
+    width: 200px;
+    text-align:  center;
+    color:  #fff;
+    padding: 80px 0 0 0px;
+    height: 225px;
+}
+
+.color-pricing-box p {
+    opacity:  0.5;
+}
+
+.color-pricing-box p.price-text {
+    color: #fff;
+    font-size:  35px;
+    opacity:  1;
+}
+
+.absolute-shooping-cart {
+    position: absolute;
+    top: 50px;
+    left: -25px;
+    background: #fff;
+    color: #3E3E3E;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 0 5px #999;
+}
+.trailor-info {
+    position: relative;
+    z-index:  1;
+}
+
+.color-pricing-box {
+    position:  absolute;
+    right: 150px;
+    top: 0;
+    background:  #FF4F4B;
+    width: 200px;
+    text-align:  center;
+    color:  #fff;
+    padding: 80px 0 0 0px;
+    height: 265px;
+}
+
+.color-pricing-box p {
+    opacity:  0.5;
+}
+
+.color-pricing-box p.price-text {
+    color: #fff;
+    font-size:  35px;
+    opacity:  1;
+}
+
+.absolute-shooping-cart {
+    position: absolute;
+    top: 50px;
+    left: -25px;
+    background: #fff;
+    color: #3E3E3E;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 0 5px #999;
+}
+
+.trailor-info img {
+    position: absolute;
+    z-index: 2;
+    padding: 70px 0 0 40px;
+}
+
+div.owl-carousel .owl-item .trailor-info img {
+  display: inline-block;
+  width: auto;
+}
+.trailor-info img:nth-child(2) {padding-top: 115px;}
+.featured-trailor-carousel .owl-dots div:nth-child(1) span::before { content: '01' }
+.featured-trailor-carousel .owl-dots div:nth-child(2) span::before { content: '02' }
+.featured-trailor-carousel .owl-dots div:nth-child(3) span::before { content: '03' }
+.featured-trailor-carousel .owl-dots div {
+    border-left: 2px solid #444;
+    padding: 20px 10px;
+}
+
+.featured-trailor-carousel .owl-dots div.active {
+    border-color: #FF4F4B;
+}
+
+.featured-trailor-carousel .owl-dots {
+    position:  absolute;
+    top: 20%;
+    right: -85px;
+}
