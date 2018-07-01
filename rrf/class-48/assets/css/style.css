@@ -1,0 +1,126 @@
+.pricing-tables {
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.single-pricing-box {
+    float: left;
+    width: 33.33333%;
+    box-shadow: 0 0 10px #dfdfdf;
+    position: relative;
+    z-index: 1;
+    margin: 30px 0 0 0;
+}
+
+body {
+    color: #727070;
+    font-size:  18px;
+    line-height:  1.7;
+}
+
+.pricing-heading {
+    background:  #F9F9F9;
+    color: #706F76;
+    font-size: 17px;
+    padding: 40px;
+}
+
+.pricing-heading h4 {
+    color: #888888;
+    font-weight:  400;
+    font-size: 30px;
+}
+
+.pricing-heading h1 {
+    color:  #333333;
+    font-size:  40px;
+    font-weight: 400;
+}
+
+.pricng-content {
+    padding: 60px;
+    line-height:  2;
+}
+
+.pricng-content ul {
+    list-style:  none;
+    margin:  0;
+    padding: 0;
+}
+
+.pricing-btn {
+    display:  inline-block;
+    color: #FC0F3C;
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+    transition: 300ms;
+}
+
+a.pricing-btn:hover{
+  background: #FC0F3C;
+  color: #fff;
+  border: 1px solid #FC0F3C;
+  text-decoration: none;
+
+}
+.active.pricing-btn:hover{
+  background: #fff;
+  color: #FC0F3C;
+  text-decoration: none;
+
+}
+
+
+.single-pricing-box.active .pricing-heading {
+    background: #EE0E39;
+    color: #fff;
+    /* margin: -30px 0 30px 0; */
+}
+
+.single-pricing-box.active .pricing-heading h4, .single-pricing-box.active .pricing-heading h1 {
+    color: #fff;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.single-pricing-box.active {
+    position: relative;
+    z-index: 2;
+    width: 34.3333%;
+    margin: 0 -.5% 0 -.5%;
+    background: #fff;
+    overflow: hidden;
+    padding: 0 0 30px 0;
+}
+
+.active .pricng-content {
+    padding: 30px 30px;
+}
+
+.active .pricing-btn {
+    color: #fff;
+    background: #FC0F3C;
+    margin-bottom: 55px;
+
+
+}
+
+.active .pricing-heading::after {
+  position: absolute;
+  top: 20px;
+  right: -35px;
+  background: #fff;
+  color: #FC0F3C;
+  font-size: 14px;
+  padding: 5px 50px;
+  content: 'Featured';
+  transform: rotate(45deg);
+}
