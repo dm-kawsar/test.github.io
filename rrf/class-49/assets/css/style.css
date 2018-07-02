@@ -1,0 +1,45 @@
+.section-padding {
+	padding: 80px 0;
+}
+
+ul.tab-list {
+	border-bottom: 2px solid #E0E0E0;
+	margin: 0 0 30px;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+    font-size:  18px;
+    line-height:  2;
+}
+
+ul.tab-list li {
+    display: inline-block;
+}
+
+
+ul.tab-list li a {
+    display:  block;
+    color: #333;
+    padding: 5px 20px 5px 20px;
+    /* padding-left: 0; */
+    /* text-align:  center; */;;;
+}
+
+ul.tab-list li.active a {
+    color: #FC2D41;
+    position:  relative;
+    z-index:  1;
+}
+
+li.active a::after {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: red;
+    z-index: 2;
+}
