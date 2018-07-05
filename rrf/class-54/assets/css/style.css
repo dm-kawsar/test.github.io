@@ -1,0 +1,168 @@
+a:hover, a:focus, a:active { text-decoration: none }
+.service-box-bg { background-image: url(../images/dental-bg-1.jpg); }
+.service-box-bg-2{ background-image: url(../images/dental-bg-2.jpg); }
+.service-box-bg-3 { background-image: url(../images/dental-bg-3.jpg); }
+.section-padding {
+    padding:  30px 0;
+}
+
+.section-title {
+    text-align:  center;
+    margin-bottom: 80px;
+}
+
+body {
+    color: #212121;
+    font-size: 18px;
+    line-height:  1.5;
+}
+
+.section-title h2 {
+    font-size:  35px;
+    text-transform:  uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section-title h2 span {
+    color: #11CAD0;
+}
+
+.section-title p {
+    font-size: 20px;
+    font-weight:  normal;
+    text-transform: capitalize;
+}
+.service-box-bg {
+    height: 250px;
+    background-position:  center;
+    background-size: cover;
+    background-color:  #333;
+    position:  relative;
+    z-index:  1;
+    border-radius: 5px 5px 0 0;
+}
+
+.service-box-bg i {
+    position:  absolute;
+    bottom: -30px;
+    left: 50%;
+    margin-left: -30px;
+    background:  #25375B;
+    color:  #fff;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #fff;
+    border-radius:  50%;
+    text-align:  center;
+    transition: 300ms;
+}
+
+.service-box-bg i::before {
+    margin: 0;
+    line-height: 52px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.single-services-box {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 0 0;
+}
+
+.single-services-box h2 {
+    text-align: center;
+    text-transform:  uppercase;
+    font-weight: 400;
+    padding: 15px 10px 10px 10px;
+    margin: 0;
+    transition: 300ms;
+}
+
+.single-services-box:hover .service-box-bg i {
+    background:  #11CAD0;
+    border-color: #25375B;
+}
+
+.single-services-box:hover h2 {
+    background: #25375B;
+    color: #fff;
+}
+.top-menearea ul {
+    background: #25375B;
+    list-style:  none;
+    margin:  0;
+    padding: 0;
+}
+
+.top-menearea li {
+    display: inline-block;
+    position: relative;
+}
+
+.top-menearea li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight:  600;
+    padding: 12px;
+    display:  block;
+    text-transform: uppercase;
+}
+.top-menearea li ul {
+    position:  absolute;
+    left: -20px;
+    top: 54px;
+    width: 190px;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.top-menearea li ul a {
+    text-transform:  none;
+    transition: 300ms;
+    padding-left: 10px;
+}
+.top-menearea li ul a:hover {
+    padding-left: 0;
+}
+.top-menearea li ul li {
+    display: block;
+}
+
+.top-menearea li ul a {
+    padding: 5px 0 5px 10px;
+    border-bottom: 2px solid #fff;
+}
+.top-menearea li:hover  ul {
+    visibility: visible;
+    opacity: 1;
+    z-index: 99;
+    left: 0;
+}
+.top-menearea li:hover > a {
+    background:  #11CAD0;
+    color:  #25375B;
+}
+.top-menearea ul li > a {
+    transition: 300ms;
+}
+.top-menearea ul ul li ul {
+    left: 190px;
+    top: 0;
+}
+.top-menearea ul li:hover ul ul {
+    left: 190px;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.top-menearea ul ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    left: 190px;
+}
+
+
+
